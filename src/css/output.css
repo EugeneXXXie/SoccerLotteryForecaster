@@ -1,0 +1,194 @@
+@charset "UTF-8";
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.apply-shake {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+.navigationBar {
+  background-color: #fff;
+}
+
+.navigationBar {
+  border-right: 1px solid #2b6447;
+}
+
+.updateTime {
+  color: #cecece;
+  font-size: 12px;
+}
+
+.footBox {
+  text-align: left;
+}
+
+.tableLine1 {
+  width: 8%;
+}
+
+.PlayeType {
+  color: #000;
+  margin-left: 5%;
+  font-weight: 600;
+  font-family: "微软雅黑";
+}
+
+.lockSwitch {
+  float: right;
+}
+.lockSwitch span {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.n-input__input input {
+  color: #25794c !important;
+}
+
+.inputTitle {
+  color: #000 !important;
+}
+
+#totalGoals {
+  font-weight: 600;
+}
+
+.n-input.n-input--disabled .n-input__input-el,
+.n-input.n-input--disabled .n-input__textarea-el {
+  cursor: pointer;
+}
+
+.inputFormat {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.headBox {
+  border-bottom: 1px solid #2b6447;
+  width: 100%;
+  background-color: #fff;
+}
+.headBox div div .interval {
+  margin: 13px 0px 13px;
+}
+
+.n-table th {
+  text-align: center;
+}
+
+.n-table td {
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.n-data-table .n-data-table-td {
+  padding: 8px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.n-breadcrumb {
+  padding-left: 5%;
+}
+
+.n-alert:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+body {
+  min-height: 100% !important;
+}
+body #app {
+  display: block;
+  padding: 0;
+  width: 100%;
+}
+
+.n-data-table .n-data-table-th {
+  font-size: 12px;
+}
+
+.startBtn {
+  margin-bottom: 3%;
+}
+
+.rightBtn {
+  float: right;
+}
+
+.interval {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+h5 .fromUrl {
+  float: right;
+  user-select: none;
+  color: #cecece;
+}
+h5 .ToUrl {
+  margin-left: 5%;
+  color: #cecece;
+}
+
+.n-layout-header,
+.n-layout-footer {
+  background: rgba(54, 173, 106, 0.1);
+  padding: 24px;
+}
+
+.n-layout-sider {
+  background: #fff;
+}
+
+.n-layout-content {
+  background: #fff;
+}
+
+.menuBox div {
+  text-align: right;
+}
+
+.btnBox {
+  text-align: center;
+}
+
+#getBtn {
+  width: 30%;
+}
+
+.testPage {
+  background-color: red;
+}
+
+.VwsImg {
+  display: inline-block;
+  width: 50%;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20%;
+}
+
+.imgBox {
+  background-image: url(../../public/imgs/komeiji.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+/*# sourceMappingURL=output.css.map */
