@@ -543,7 +543,10 @@ const columns = [
   <!-- h头 -->
   <n-layout>
     <n-layout-header id="totalGoals"
-      >总进球数 <span class="totalGoalsTitle" style="color: #999; font-size: 14px;">单场总进球数(过关方式:单关)</span></n-layout-header
+      >总进球数
+      <span class="totalGoalsTitle" style="color: #999; font-size: 14px"
+        >单场总进球数(过关方式:单关)</span
+      ></n-layout-header
     >
     <n-layout-content content-style="padding: 24px;">
       <h5>
@@ -609,7 +612,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix class="inputTitle"
+              <template #prefix
                 ><span class="inputTitle">1球:</span></template
               >
             </n-input-number>
@@ -628,7 +631,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix class="inputTitle"
+              <template #prefix
                 ><span class="inputTitle">2球:</span></template
               >
             </n-input-number>
@@ -647,7 +650,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix class="inputTitle"
+              <template #prefix
                 ><span class="inputTitle">3球:</span></template
               >
             </n-input-number>
@@ -666,7 +669,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix class="inputTitle"
+              <template #prefix
                 ><span class="inputTitle">4球:</span></template
               >
             </n-input-number>
@@ -685,7 +688,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix class="inputTitle"
+              <template #prefix
                 ><span class="inputTitle">5球:</span></template
               >
             </n-input-number>
@@ -704,7 +707,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix class="inputTitle"
+              <template #prefix
                 ><span class="inputTitle">6球:</span></template
               >
             </n-input-number>
@@ -723,7 +726,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix class="inputTitle"
+              <template #prefix
                 ><span class="inputTitle">7+球:</span></template
               >
             </n-input-number>
@@ -740,7 +743,7 @@ const columns = [
           :min="16"
           :max="99999999999"
           @input="statusChecking"
-          @keyup.enter.native="handleGet"
+          @keyup.enter="handleGet"
         >
           <template #prefix>￥</template>
         </n-input-number>
