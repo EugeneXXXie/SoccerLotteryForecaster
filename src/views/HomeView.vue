@@ -612,9 +612,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix
-                ><span class="inputTitle">1球:</span></template
-              >
+              <template #prefix><span class="inputTitle">1球:</span></template>
             </n-input-number>
           </div> </n-grid-item
         ><n-grid-item span="4 400:4 600:2 800:1">
@@ -631,9 +629,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix
-                ><span class="inputTitle">2球:</span></template
-              >
+              <template #prefix><span class="inputTitle">2球:</span></template>
             </n-input-number>
           </div> </n-grid-item
         ><n-grid-item span="4 400:4 600:2 800:1">
@@ -650,9 +646,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix
-                ><span class="inputTitle">3球:</span></template
-              >
+              <template #prefix><span class="inputTitle">3球:</span></template>
             </n-input-number>
           </div> </n-grid-item
         ><n-grid-item span="4 400:4 600:2 800:1">
@@ -669,9 +663,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix
-                ><span class="inputTitle">4球:</span></template
-              >
+              <template #prefix><span class="inputTitle">4球:</span></template>
             </n-input-number>
           </div> </n-grid-item
         ><n-grid-item span="4 400:4 600:2 800:1">
@@ -688,9 +680,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix
-                ><span class="inputTitle">5球:</span></template
-              >
+              <template #prefix><span class="inputTitle">5球:</span></template>
             </n-input-number>
           </div> </n-grid-item
         ><n-grid-item span="4 400:4 600:2 800:1">
@@ -707,9 +697,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix
-                ><span class="inputTitle">6球:</span></template
-              >
+              <template #prefix><span class="inputTitle">6球:</span></template>
             </n-input-number>
           </div> </n-grid-item
         ><n-grid-item span="4 400:4 600:2 800:1">
@@ -726,9 +714,7 @@ const columns = [
               @click="Unlock"
               @input="PromptBack"
             >
-              <template #prefix
-                ><span class="inputTitle">7+球:</span></template
-              >
+              <template #prefix><span class="inputTitle">7+球:</span></template>
             </n-input-number>
           </div>
         </n-grid-item>
